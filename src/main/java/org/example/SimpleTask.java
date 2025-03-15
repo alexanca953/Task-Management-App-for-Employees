@@ -20,6 +20,6 @@ public class SimpleTask extends Task {
         this.endHour = endHour;
     }
     public int estimateDuration() {
-        return endHour - startHour;
+        return endHour - startHour;///aici ai grija
     }
 }
