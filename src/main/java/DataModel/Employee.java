@@ -53,6 +53,7 @@ public static void addEmployee(int id,String name)
     Employee employee=new Employee(id,name);
     serialization.serializeEmployee(employee,"EmployeeList.txt");
 }
+
     public boolean equals(Object obj) {
         if (this == obj)
             return true;
